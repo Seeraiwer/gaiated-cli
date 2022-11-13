@@ -50,7 +50,7 @@ forge_url() {
             echo "Alles Guet :)"
             exit
     else
-        echo "Ce n'est pas un Google ID (=> 21 caractères numériques)."
+        echo "It's not a Google ID (=> 21 numbers)."
     fi
 }
 
