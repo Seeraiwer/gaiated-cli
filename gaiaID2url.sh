@@ -46,7 +46,6 @@ forge_url() {
             nohup xdg-open "https://google.com/maps/contrib/$userid" > /dev/null 2>&1
             nohup xdg-open "https://web.archive.org/web/*/https://plus.google.com/*/$userid/*" > /dev/null 2>&1
             nohup xdg-open "https://web.archive.org/web/*/https://get.google.com/albumarchive/$userid/*" > /dev/null 2>&1
-            nohup xdg-open "https://hangouts.google.com/?action=chat&pi=$userid"
             echo "Alles Guet :)"
             exit
     else
